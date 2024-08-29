@@ -1,148 +1,135 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的个人主页</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+}
+header {
+background-color: #4CAF50;
+color: white;
+padding: 10px 0;
+text-align: center;
+}
+nav {
+display: flex;
+justify-content: center;
+background-color: #333;
+}
+nav a {
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+}
+nav a:hover {
+background-color: #ddd;
+color: black;
+}
+section {
+padding: 20px;
+margin: 20px auto;
+max-width: 800px;
+background-color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+.product img {
+max-width: 100px;
+margin-right: 20px;
+}
+.product a {
+color: #4CAF50;
+text-decoration: none;
+}
+footer {
+text-align: center;
+padding: 20px;
+background-color: #333;
+color: white;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+</style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="zh-CN"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;我的个人主页&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f4f4f4;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #4CAF50;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #333;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav a {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 14px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav a:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #ddd;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: black;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>section {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.product {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.product img {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 100px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.product a {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #4CAF50;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>footer {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #333;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;欢迎来到我的个人主页&lt;/h1&gt;</p>
-<p class="p1">&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href=" "&gt;首页&lt;/a &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#blog"&gt;日常生活&lt;/a &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#knowledge"&gt;知识分享&lt;/a &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#products"&gt;推荐产品&lt;/a &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#contact"&gt;联系我&lt;/a &gt;</p>
-<p class="p1">&lt;/nav&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="home"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;关于我&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;你好！我是[你的名字]，这是我的个人主页。在这里，我分享我的日常生活、兴趣爱好以及一些实用的知识。希望你能喜欢！&lt;/p &gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="blog"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;日常生活&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;这里是我日常生活的记录，包括旅行、健身、美食等。&lt;/p &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;例子：今天我尝试了一种新的健身方法，效果非常好！&lt;/p &gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="knowledge"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;知识分享&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;在这一部分，我会分享一些我的兴趣领域或专业知识。&lt;/p &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;例子：如何通过简单的方法提升你的生产力。&lt;/p &gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="products"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;推荐产品&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="product"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt; img src="product1.jpg" alt="产品1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;产品1的描述和推荐理由。&lt;/p &gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.amazon.com/your-affiliate-link"&gt;立即购买&lt;/a &gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="product"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt; img src="product2.jpg" alt="产品2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;产品2的描述和推荐理由。&lt;/p &gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.amazon.com/your-affiliate-link"&gt;立即购买&lt;/a &gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 可以继续添加更多的推荐产品 --&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;联系我&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;如果你想了解更多或与我联系，可以通过以下方式找到我：&lt;/p &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Email: yourname@example.com&lt;/p &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;社交媒体:<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://twitter.com/yourprofile"&gt;Twitter&lt;/a &gt; |<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://www.linkedin.com/in/yourprofile"&gt;LinkedIn&lt;/a &gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/p &gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;&amp;copy; 2024 [你的名字]. 保留所有权利。&lt;/p &gt;</p>
-<p class="p1">&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<p class="p2"><br>
+<header>
+<h1>欢迎来到我的个人主页</h1>
+</header>
+<p class="p2"><br>
+<nav>
+<a href=" ">首页</a >
+<a href="#blog">日常生活</a >
+<a href="#knowledge">知识分享</a >
+<a href="#products">推荐产品</a >
+<a href="#contact">联系我</a >
+</nav>
+<p class="p2"><br>
+<section id="home">
+<h2>关于我</h2>
+<p>你好！我是[你的名字]，这是我的个人主页。在这里，我分享我的日常生活、兴趣爱好以及一些实用的知识。希望你能喜欢！</p >
+</section>
+<p class="p2"><br>
+<section id="blog">
+<h2>日常生活</h2>
+<p>这里是我日常生活的记录，包括旅行、健身、美食等。</p >
+<p>例子：今天我尝试了一种新的健身方法，效果非常好！</p >
+</section>
+<p class="p2"><br>
+<section id="knowledge">
+<h2>知识分享</h2>
+<p>在这一部分，我会分享一些我的兴趣领域或专业知识。</p >
+<p>例子：如何通过简单的方法提升你的生产力。</p >
+</section>
+<p class="p2"><br>
+<section id="products">
+<h2>推荐产品</h2>
+<div class="product">
+<img src="product1.jpg" alt="产品1">
+<div>
+<p>产品1的描述和推荐理由。</p >
+<a href="https://www.amazon.com/your-affiliate-link">立即购买</a >
+</div>
+</div>
+<div class="product">
+<img src="product2.jpg" alt="产品2">
+<div>
+<p>产品2的描述和推荐理由。</p >
+<a href="https://www.amazon.com/your-affiliate-link">立即购买</a >
+</div>
+</div>
+<!-- 可以继续添加更多的推荐产品 -->
+</section>
+<p class="p2"><br>
+<section id="contact">
+<h2>联系我</h2>
+<p>如果你想了解更多或与我联系，可以通过以下方式找到我：</p >
+<p>Email: yourname@example.com</p >
+<p>社交媒体:<span class="Apple-converted-space"> </span>
+<a href="https://twitter.com/yourprofile">Twitter</a > |<span class="Apple-converted-space"> </span>
+<a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a >
+</p >
+</section>
+<p class="p2"><br>
+<footer>
+<p>&amp;copy; 2024 [你的名字]. 保留所有权利。</p >
+</footer>
+<p class="p2"><br>
+</body>
+</html>
 </body>
 </html>
